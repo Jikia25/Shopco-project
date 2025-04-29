@@ -1,0 +1,92 @@
+@font-face {
+  font-family: integralcf-bold;
+  src: url(../fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+@font-face {
+  font-family: Satoshi-Regular;
+  src: url(../fonts/satoshi/Satoshi-Regular.otf);
+}
+/* variables START*/
+:root {
+  --secondary: #f2f0f1;
+  --primary: #000;
+}
+
+/* variables END*/
+
+/* general classes START*/
+.background-primary {
+  background-color: var(--primary);
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1240px;
+  margin-inline: auto;
+  width: 90%;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+/* general classes END*/
+
+.get-sign-up-wrapper {
+  padding-block: 10px;
+  .get-sign-up {
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: inherit;
+      text-decoration-line: underline;
+    }
+    img {
+      position: absolute;
+      right: 0;
+      display: block;
+      width: 13px;
+    }
+  }
+}
+
+header {
+  .header-inner-wrapper {
+    gap: 40px;
+    padding-block: 24px;
+    .logo {
+      font-family: integralcf-bold, Arial, sans-serif;
+      font-size: 32px;
+    }
+    nav {
+      ul {
+        font-family: Satoshi-Regular, Arial, sans-serif;
+        text-transform: capitalize;
+        gap: 24px;
+        font-size: 16px;
+      }
+    }
+
+    form {
+      font-family: Satoshi-Regular, Arial, sans-serif;
+      background-color: var(--secondary);
+      border-radius: 62px;
+      padding: 12px 0px 12px 16px;
+      gap: 12px;
+      flex-grow: 1;
+      input {
+        border: none;
+        background-color: transparent;
+      }
+    }
+    .cta-wrapper {
+      gap: 14px;
+    }
+  }
+}
