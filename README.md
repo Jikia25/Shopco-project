@@ -1,6 +1,7 @@
 # 🛍️ ShopCo — E-commerce Fashion UI
 
-ShopCo is a modern, responsive e-commerce user interface built with HTML, CSS, and JavaScript. It simulates the frontend structure of a stylish clothing store, showcasing products, categories, user authentication pages, and a shopping cart system.
+ShopCo is a modern, responsive e-commerce user interface built with HTML, CSS, and JavaScript. 
+It simulates the frontend structure of a stylish clothing store, showcasing products, categories, user authentication pages, and a shopping cart system.
 
 ## ✨ Features
 
